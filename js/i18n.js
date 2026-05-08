@@ -562,9 +562,22 @@ function applyLang(lang) {
   localStorage.setItem('chia-lang', lang);
 }
 
+function detectLang() {
+  const supported = Object.keys(TRANSLATIONS); // ['en','it','es','de','fr']
+  // 1. User previously picked a language — honour it
+  const saved = localStorage.getItem('chia-lang');
+  if (saved && supported.includes(saved)) return saved;
+  // 2. Walk browser preference list and pick the first match
+  const prefs = navigator.languages || [navigator.language || 'en'];
+  for (const pref of prefs) {
+    const code = pref.slice(0, 2).toLowerCase();
+    if (supported.includes(code)) return code;
+  }
+  return 'en';
+}
+
 document.addEventListener('DOMContentLoaded', () => {
-  const saved = localStorage.getItem('chia-lang') || 'en';
-  applyLang(saved);
+  applyLang(detectLang());
 
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => applyLang(btn.dataset.lang));
