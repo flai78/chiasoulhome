@@ -585,4 +585,24 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => applyLang(btn.dataset.lang));
   });
+
+  // Mobile nav toggle
+  const toggle = document.querySelector('.nav-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  if (toggle && navLinks) {
+    toggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      toggle.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', open);
+    });
+
+    // Close menu when any nav link is tapped
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
 });
