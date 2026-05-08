@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chia Soul Home — Sardinia</title>
+  <meta name="description" content="A charming stone villa in Chia, south Sardinia. Stone walls, wooden beams, panoramic terraces and garden — your perfect Sardinian retreat." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#hero" class="nav-logo">Chia Soul Home</a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#amenities">Amenities</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#contact" class="nav-cta">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <img src="img/webcasa%20chia%202022_09.jpg" alt="Chia Soul Home panoramic terrace" class="hero-bg" />
+    <div class="hero-content container">
+      <span class="hero-badge">Chia · South Sardinia</span>
+      <h1 class="hero-title">Chia Soul Home</h1>
+      <p class="hero-sub">A timeless stone villa with breathtaking valley &amp; sea views</p>
+      <div class="hero-actions">
+        <a href="#gallery" class="btn btn-primary">Explore the House</a>
+        <a href="#contact" class="btn btn-outline">Book Your Stay</a>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="Scroll down">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <span class="section-label">The House</span>
+        <h2 class="section-title">A Sardinian Soul in Every Stone</h2>
+        <p>Nestled in the hills above <strong>Chia</strong>, one of Sardinia's most beloved coastal villages, this authentic stone house combines rustic charm with all the comforts you need for an unforgettable holiday.</p>
+        <p>Exposed wooden beams, a traditional fireplace framed by a hand-laid stone wall, terracotta floors and handcrafted ceramics tell the story of a home built with love — and shared with warmth.</p>
+        <p>From the panoramic terraces and the lush pergola-covered garden you can breathe in the Sardinian landscape: rolling hills, Mediterranean scrub and, on clear days, the shimmering blue of the sea on the horizon.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <strong>3</strong>
+            <span>Bedrooms</span>
+          </div>
+          <div class="stat">
+            <strong>2</strong>
+            <span>Bathrooms</span>
+          </div>
+          <div class="stat">
+            <strong>4+</strong>
+            <span>Terraces</span>
+          </div>
+          <div class="stat">
+            <strong>8</strong>
+            <span>Guests</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-images">
+        <img src="img/chiaweb3.jpg" alt="Living room with stone fireplace" class="about-img about-img--main" />
+        <img src="img/web%20chia%20casa%20letto2.jpg" alt="Master bedroom" class="about-img about-img--accent" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <span class="section-label">Gallery</span>
+      <h2 class="section-title">Every Corner Tells a Story</h2>
+      <p class="section-intro">Wander through the spaces that make Chia Soul Home so special.</p>
+    </div>
+
+    <div class="gallery-grid">
+      <!-- Row 1: wide + tall -->
+      <div class="gallery-item gallery-item--wide">
+        <img src="img/webcasa%20chia%202022_05.jpg" alt="Covered terrace with garden and mountain views" loading="lazy" />
+        <div class="gallery-caption">Main terrace · Garden &amp; views</div>
+      </div>
+      <div class="gallery-item gallery-item--tall">
+        <img src="img/chiaweb3.jpg" alt="Living room with stone wall and fireplace" loading="lazy" />
+        <div class="gallery-caption">Living room · Stone fireplace</div>
+      </div>
+
+      <!-- Row 2: three equal -->
+      <div class="gallery-item">
+        <img src="img/webcasa%20chia%202022_07.jpg" alt="Shaded terrace with outdoor furniture" loading="lazy" />
+        <div class="gallery-caption">Outdoor dining</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/webcasa%20chia%202022_10.jpg" alt="Terrace with round dining table and panoramic view" loading="lazy" />
+        <div class="gallery-caption">Panoramic terrace</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/webcasa%20chia%202022_11.jpg" alt="BBQ area in the garden" loading="lazy" />
+        <div class="gallery-caption">BBQ &amp; garden</div>
+      </div>
+
+      <!-- Row 3: tall + two stacked -->
+      <div class="gallery-item gallery-item--tall">
+        <img src="img/webcasa%20chia%202022_06.jpg" alt="Covered patio with swing and lounge area" loading="lazy" />
+        <div class="gallery-caption">Garden swing &amp; lounge</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/chiaweb9.jpg" alt="Upper terrace with valley view" loading="lazy" />
+        <div class="gallery-caption">Upper terrace · Valley view</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/chiaweb6.jpg" alt="Terrace with sunlight" loading="lazy" />
+        <div class="gallery-caption">Morning terrace</div>
+      </div>
+
+      <!-- Row 4: wide + regular -->
+      <div class="gallery-item gallery-item--wide">
+        <img src="img/chiaweb1.jpg" alt="Open plan living and dining room" loading="lazy" />
+        <div class="gallery-caption">Living &amp; dining room</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/webcasa%20chia%202022_12.jpg" alt="Garden with sea view in the background" loading="lazy" />
+        <div class="gallery-caption">Garden &amp; sea glimpse</div>
+      </div>
+
+      <!-- Row 5: regular -->
+      <div class="gallery-item">
+        <img src="img/web%20chia%20casa%20letto2.jpg" alt="Double bedroom" loading="lazy" />
+        <div class="gallery-caption">Master bedroom</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/webcasa%20chia%202022_04.jpg" alt="Bedroom" loading="lazy" />
+        <div class="gallery-caption">Single bedroom</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/web%20chia%20casa%20cucina02.jpg" alt="Fully equipped kitchen" loading="lazy" />
+        <div class="gallery-caption">Kitchen</div>
+      </div>
+
+      <!-- Row 6: various -->
+      <div class="gallery-item gallery-item--tall">
+        <img src="img/webcasa%20chia%202022_15.jpg" alt="Terrace with sea view and hibiscus" loading="lazy" />
+        <div class="gallery-caption">Sea-view terrace</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/webcasa%20chia2022_01.jpg" alt="Terrace of the second unit" loading="lazy" />
+        <div class="gallery-caption">Private terrace</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/webcasa%20chia%202022_21.jpg" alt="Living room from another angle" loading="lazy" />
+        <div class="gallery-caption">Living room</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/chiaweb12.jpg" alt="Terrace with open view" loading="lazy" />
+        <div class="gallery-caption">Open terrace</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/web%20chia%20casa%20bgnoV.jpg" alt="Bathroom with shower" loading="lazy" />
+        <div class="gallery-caption">Bathroom</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/webcasa%20chia%202022_02.jpg" alt="Living room details" loading="lazy" />
+        <div class="gallery-caption">Living room details</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AMENITIES ===== -->
+  <section class="amenities section" id="amenities">
+    <div class="container">
+      <span class="section-label">Amenities</span>
+      <h2 class="section-title">Everything You Need</h2>
+      <div class="amenities-grid">
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12l9-9 9 9M5 10v9a1 1 0 001 1h4v-5h4v5h4a1 1 0 001-1v-9"/></svg>
+          </div>
+          <h3>3 Bedrooms</h3>
+          <p>One double bedroom and two twin/single bedrooms — comfortably sleeping up to 8 guests.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          </div>
+          <h3>Fireplace</h3>
+          <p>A stunning traditional fireplace set against a hand-built stone wall — perfect for cool evenings.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01M15 9h.01"/></svg>
+          </div>
+          <h3>Garden &amp; BBQ</h3>
+          <p>A lush private garden with a traditional outdoor barbecue, fruit trees and Mediterranean plants.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <h3>4+ Terraces</h3>
+          <p>Multiple outdoor spaces — a large covered pergola, sun terraces and a cosy balcony with sea views.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 17h18M3 7h18M5 7v10M19 7v10M8 12h8"/></svg>
+          </div>
+          <h3>Full Kitchen</h3>
+          <p>A well-equipped kitchen with gas hob, oven, fridge and all the utensils you need to cook like a local.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Prime Location</h3>
+          <p>Minutes from Chia's famous beaches (Su Giudeu, Cala Cipolla) and the vibrant village centre.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4z"/><path d="M8 2v16M16 6v16"/></svg>
+          </div>
+          <h3>Panoramic Views</h3>
+          <p>Sweeping views over the Sulcis hills with a glimpse of the sea — sunrise and sunset are unmissable.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Private &amp; Secure</h3>
+          <p>Fully fenced property on a quiet hillside — peaceful, private and safe for families with children.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOCATION ===== -->
+  <section class="location section" id="location">
+    <div class="container location-grid">
+      <div class="location-text">
+        <span class="section-label">Location</span>
+        <h2 class="section-title">Chia, South Sardinia</h2>
+        <p>Chia is one of Sardinia's most treasured coastal destinations — a small village blessed with dunes, lagoons, Phoenician towers and crystalline waters in impossibly vivid shades of turquoise.</p>
+        <p>The house sits on a hillside just minutes from the coast, offering the perfect balance between nature, privacy and access to all the best the south of the island has to offer.</p>
+
+        <ul class="location-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span><strong>5 min</strong> to Chia beaches (Su Giudeu, Cala Cipolla)</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span><strong>35 min</strong> to Cagliari city centre</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span><strong>40 min</strong> to Cagliari Elmas Airport (CAG)</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Close to restaurants, supermarkets &amp; village life</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="location-map">
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6248.936476120598!2d8.8804!3d38.9153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cd5a3a02b71a3f%3A0x49e9f4a4f2a5e000!2sChi%C3%A0%2C%20South%20Sardinia%2C%20Italy!5e0!3m2!1sen!2sit!4v1700000000000"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Location map — Chia, Sardinia"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact">
+    <div class="contact-bg">
+      <img src="img/webcasa%20chia%202022_09.jpg" alt="Terrace with view" />
+      <div class="contact-overlay"></div>
+    </div>
+    <div class="container contact-inner">
+      <span class="section-label section-label--light">Book Your Stay</span>
+      <h2 class="section-title section-title--light">Ready for Sardinia?</h2>
+      <p class="contact-sub">Send us a message with your preferred dates and the number of guests — we'll get back to you within 24 hours.</p>
+
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="Maria Rossi" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="maria@example.com" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="checkin">Check-in</label>
+            <input type="date" id="checkin" name="checkin" required />
+          </div>
+          <div class="form-group">
+            <label for="checkout">Check-out</label>
+            <input type="date" id="checkout" name="checkout" required />
+          </div>
+          <div class="form-group form-group--small">
+            <label for="guests">Guests</label>
+            <input type="number" id="guests" name="guests" min="1" max="8" placeholder="4" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message (optional)</label>
+          <textarea id="message" name="message" rows="4" placeholder="Any questions or special requests..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send Enquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">Chia Soul Home</span>
+        <p>Chia, Sulcis-Iglesiente<br />South Sardinia, Italy</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Chia Soul Home. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Smooth scroll + nav hide on link click -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', () => {
+        document.querySelector('.nav-links').classList.remove('open');
+        document.querySelector('.nav-toggle').classList.remove('open');
+      });
+    });
+
+    // Sticky header shadow
+    const header = document.querySelector('.site-header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 60);
+    });
+  </script>
+
+</body>
+</html>
