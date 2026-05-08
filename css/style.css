@@ -240,18 +240,21 @@ ul { list-style: none; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 40%;
+  object-position: center 55%;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(30,18,8,.35) 0%,
-    rgba(30,18,8,.52) 60%,
-    rgba(30,18,8,.70) 100%
-  );
+  background:
+    radial-gradient(ellipse 80% 70% at 50% 50%, rgba(20,10,2,.55) 0%, transparent 80%),
+    linear-gradient(
+      to bottom,
+      rgba(20,10,2,.25) 0%,
+      rgba(20,10,2,.18) 30%,
+      rgba(20,10,2,.62) 75%,
+      rgba(20,10,2,.82) 100%
+    );
 }
 
 .hero-content {
@@ -262,29 +265,41 @@ ul { list-style: none; }
 
 .hero-badge {
   display: inline-block;
-  font-size: .75rem;
+  font-size: .72rem;
   font-weight: 700;
-  letter-spacing: .2em;
+  letter-spacing: .28em;
   text-transform: uppercase;
   color: var(--sand);
-  margin-bottom: 16px;
+  margin-bottom: 20px;
+  padding: 7px 18px;
+  border: 1px solid rgba(237,224,204,.35);
+  border-radius: 2px;
+  backdrop-filter: blur(4px);
+  background: rgba(20,10,2,.18);
 }
 
 .hero-title {
   font-family: 'Playfair Display', serif;
-  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  font-size: clamp(3rem, 7.5vw, 6rem);
   font-weight: 600;
-  line-height: 1.05;
-  text-shadow: 0 2px 16px rgba(0,0,0,.3);
+  line-height: 1.02;
+  text-shadow:
+    0 2px 4px rgba(0,0,0,.4),
+    0 8px 32px rgba(0,0,0,.45),
+    0 24px 64px rgba(0,0,0,.3);
   margin-bottom: 20px;
+  letter-spacing: -.01em;
 }
 
 .hero-sub {
-  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-size: clamp(1rem, 2vw, 1.2rem);
   font-weight: 300;
   color: rgba(255,255,255,.88);
-  max-width: 520px;
-  margin: 0 auto 36px;
+  max-width: 480px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+  text-shadow: 0 1px 8px rgba(0,0,0,.5);
+  letter-spacing: .02em;
 }
 
 .hero-actions {
@@ -299,10 +314,10 @@ ul { list-style: none; }
   bottom: 32px;
   left: 50%;
   transform: translateX(-50%);
-  color: rgba(255,255,255,.7);
+  color: rgba(255,255,255,.55);
   animation: bounce 2s ease-in-out infinite;
 }
-.hero-scroll svg { width: 28px; height: 28px; }
+.hero-scroll svg { width: 26px; height: 26px; }
 
 @keyframes bounce {
   0%, 100% { transform: translateX(-50%) translateY(0); }
