@@ -567,13 +567,16 @@ function detectLang() {
   // 1. User previously picked a language — honour it
   const saved = localStorage.getItem('chia-lang');
   if (saved && supported.includes(saved)) return saved;
-  // 2. Walk browser preference list and pick the first match
-  const prefs = navigator.languages || [navigator.language || 'en'];
+  // 2. Walk browser preference list (full ISO codes e.g. "it-IT", "fr-FR")
+  //    and pick the first match on the primary language subtag
+  const prefs = navigator.languages && navigator.languages.length
+    ? navigator.languages
+    : [navigator.language || 'it'];
   for (const pref of prefs) {
-    const code = pref.slice(0, 2).toLowerCase();
+    const code = pref.split('-')[0].toLowerCase();
     if (supported.includes(code)) return code;
   }
-  return 'en';
+  return 'it';
 }
 
 document.addEventListener('DOMContentLoaded', () => {
