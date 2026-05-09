@@ -66,7 +66,7 @@ const TRANSLATIONS = {
     'amenity.6.title': 'Prime Location',
     'amenity.6.desc':  'Minutes from Chia\'s famous beaches (Su Giudeu, Cala Cipolla) and the vibrant village centre.',
     'amenity.7.title': 'Panoramic Views',
-    'amenity.7.desc':  'Sweeping views over the Sulcis hills with a glimpse of the sea — sunrise and sunset are unmissable.',
+    'amenity.7.desc':  'Sweeping views over the south Sardinia hills with a glimpse of the sea — sunrise and sunset are unmissable.',
     'amenity.8.title': 'Private & Secure',
     'amenity.8.desc':  'Fully fenced 6,000 m² property on a quiet hillside, surrounded by Mediterranean vegetation — peaceful, private and safe for families with children.'
 
@@ -171,7 +171,7 @@ const TRANSLATIONS = {
     'amenity.6.title': 'Posizione Privilegiata',
     'amenity.6.desc':  'A pochi minuti dalle spiagge più belle di Chia (Su Giudeu, Cala Cipolla) e dal centro del paese.',
     'amenity.7.title': 'Vista Panoramica',
-    'amenity.7.desc':  'Vista spettacolare sulle colline del Sulcis con scorci di mare — alba e tramonto da non perdere.',
+    'amenity.7.desc':  'Vista spettacolare sulle colline del sud Sardegna con scorci di mare — alba e tramonto da non perdere.',
     'amenity.8.title': 'Privacy e Sicurezza',
     'amenity.8.desc':  'Proprietà completamente recintata di 6.000 m² su una collina tranquilla, immersa nella vegetazione mediterranea — ideale per famiglie con bambini.'
 
@@ -276,7 +276,7 @@ const TRANSLATIONS = {
     'amenity.6.title': 'Ubicación Inmejorable',
     'amenity.6.desc':  'A pocos minutos de las famosas playas de Chia (Su Giudeu, Cala Cipolla) y del centro del pueblo.',
     'amenity.7.title': 'Vistas Panorámicas',
-    'amenity.7.desc':  'Amplias vistas sobre las colinas del Sulcis con destellos del mar — el amanecer y el atardecer son imperdibles.',
+    'amenity.7.desc':  'Amplias vistas sobre las colinas del sur de Cerdeña con destellos del mar — el amanecer y el atardecer son imperdibles.',
     'amenity.8.title': 'Privacidad y Seguridad',
     'amenity.8.desc':  'Propiedad completamente cercada de 6.000 m² en una ladera tranquila, rodeada de vegetación mediterránea — ideal para familias con niños.'
 
@@ -381,7 +381,7 @@ const TRANSLATIONS = {
     'amenity.6.title': 'Erstklassige Lage',
     'amenity.6.desc':  'Nur wenige Minuten von Chias berühmten Stränden (Su Giudeu, Cala Cipolla) und dem Ortszentrum.',
     'amenity.7.title': 'Panoramablick',
-    'amenity.7.desc':  'Weitreichende Aussicht über die Sulcis-Hügel mit Meerblick — Sonnenauf- und -untergang sind unvergesslich.',
+    'amenity.7.desc':  'Weitreichende Aussicht über die Hügel Südsardiniens mit Meerblick — Sonnenauf- und -untergang sind unvergesslich.',
     'amenity.8.title': 'Privat & Sicher',
     'amenity.8.desc':  'Vollständig eingezäuntes 6.000 m² Anwesen auf einem ruhigen Hügel, umgeben von mediterraner Vegetation — friedlich, privat und sicher für Familien mit Kindern.'
 
@@ -486,7 +486,7 @@ const TRANSLATIONS = {
     'amenity.6.title': 'Emplacement Idéal',
     'amenity.6.desc':  'À quelques minutes des célèbres plages de Chia (Su Giudeu, Cala Cipolla) et du centre du village.',
     'amenity.7.title': 'Vues Panoramiques',
-    'amenity.7.desc':  'Vue imprenable sur les collines du Sulcis avec un aperçu de la mer — le lever et le coucher du soleil sont à ne pas manquer.',
+    'amenity.7.desc':  'Vue imprenable sur les collines du sud de la Sardaigne avec un aperçu de la mer — le lever et le coucher du soleil sont à ne pas manquer.',
     'amenity.8.title': 'Privé & Sécurisé',
     'amenity.8.desc':  'Propriété entièrement clôturée de 6 000 m² sur un flanc de colline tranquille, entourée de végétation méditerranéenne — paisible, privée et sûre pour les familles avec enfants.'
 
