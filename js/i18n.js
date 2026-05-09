@@ -68,9 +68,7 @@ const TRANSLATIONS = {
     'amenity.7.title': 'Panoramic Views',
     'amenity.7.desc':  'Sweeping views over the south Sardinia hills with a glimpse of the sea — sunrise and sunset are unmissable.',
     'amenity.8.title': 'Private & Secure',
-    'amenity.8.desc':  'Fully fenced 6,000 m² property on a quiet hillside, surrounded by Mediterranean vegetation — peaceful, private and safe for families with children.'
-
-    'location.label': 'Location',
+    'amenity.8.desc':  'Fully fenced 6,000 m² property on a quiet hillside, surrounded by Mediterranean vegetation — peaceful, private and safe for families with children.',
     'location.title': 'Chia, South Sardinia',
     'location.p1':    'Chia is one of Sardinia\'s most treasured coastal destinations — a small village blessed with dunes, lagoons, Phoenician towers and crystalline waters in impossibly vivid shades of turquoise.',
     'location.p2':    'The house sits on a hillside just minutes from the coast, offering the perfect balance between nature, privacy and access to all the best the south of the island has to offer.',
@@ -173,8 +171,7 @@ const TRANSLATIONS = {
     'amenity.7.title': 'Vista Panoramica',
     'amenity.7.desc':  'Vista spettacolare sulle colline del sud Sardegna con scorci di mare — alba e tramonto da non perdere.',
     'amenity.8.title': 'Privacy e Sicurezza',
-    'amenity.8.desc':  'Proprietà completamente recintata di 6.000 m² su una collina tranquilla, immersa nella vegetazione mediterranea — ideale per famiglie con bambini.'
-
+    'amenity.8.desc':  'Proprietà completamente recintata di 6.000 m² su una collina tranquilla, immersa nella vegetazione mediterranea — ideale per famiglie con bambini.',
     'location.label': 'Posizione',
     'location.title': 'Chia, Sardegna del Sud',
     'location.p1':    'Chia è una delle destinazioni costiere più preziose della Sardegna — un piccolo borgo benedetto da dune, lagune, torri fenicie e acque cristalline in tonalità di turchese vivissime.',
@@ -278,8 +275,7 @@ const TRANSLATIONS = {
     'amenity.7.title': 'Vistas Panorámicas',
     'amenity.7.desc':  'Amplias vistas sobre las colinas del sur de Cerdeña con destellos del mar — el amanecer y el atardecer son imperdibles.',
     'amenity.8.title': 'Privacidad y Seguridad',
-    'amenity.8.desc':  'Propiedad completamente cercada de 6.000 m² en una ladera tranquila, rodeada de vegetación mediterránea — ideal para familias con niños.'
-
+    'amenity.8.desc':  'Propiedad completamente cercada de 6.000 m² en una ladera tranquila, rodeada de vegetación mediterránea — ideal para familias con niños.',
     'location.label': 'Ubicación',
     'location.title': 'Chia, Cerdeña del Sur',
     'location.p1':    'Chia es uno de los destinos costeros más preciados de Cerdeña — un pequeño pueblo bendecido con dunas, lagunas, torres fenicias y aguas cristalinas en tonos turquesa increíblemente vívidos.',
@@ -383,8 +379,7 @@ const TRANSLATIONS = {
     'amenity.7.title': 'Panoramablick',
     'amenity.7.desc':  'Weitreichende Aussicht über die Hügel Südsardiniens mit Meerblick — Sonnenauf- und -untergang sind unvergesslich.',
     'amenity.8.title': 'Privat & Sicher',
-    'amenity.8.desc':  'Vollständig eingezäuntes 6.000 m² Anwesen auf einem ruhigen Hügel, umgeben von mediterraner Vegetation — friedlich, privat und sicher für Familien mit Kindern.'
-
+    'amenity.8.desc':  'Vollständig eingezäuntes 6.000 m² Anwesen auf einem ruhigen Hügel, umgeben von mediterraner Vegetation — friedlich, privat und sicher für Familien mit Kindern.',
     'location.label': 'Lage',
     'location.title': 'Chia, Südsardinien',
     'location.p1':    'Chia ist eines der schönsten Küstenziele Sardiniens — ein kleines Dorf mit Dünen, Lagunen, phönizischen Türmen und kristallklarem Wasser in leuchtenden Türkistönen.',
@@ -488,8 +483,7 @@ const TRANSLATIONS = {
     'amenity.7.title': 'Vues Panoramiques',
     'amenity.7.desc':  'Vue imprenable sur les collines du sud de la Sardaigne avec un aperçu de la mer — le lever et le coucher du soleil sont à ne pas manquer.',
     'amenity.8.title': 'Privé & Sécurisé',
-    'amenity.8.desc':  'Propriété entièrement clôturée de 6 000 m² sur un flanc de colline tranquille, entourée de végétation méditerranéenne — paisible, privée et sûre pour les familles avec enfants.'
-
+    'amenity.8.desc':  'Propriété entièrement clôturée de 6 000 m² sur un flanc de colline tranquille, entourée de végétation méditerranéenne — paisible, privée et sûre pour les familles avec enfants.',
     'location.label': 'Localisation',
     'location.title': 'Chia, Sardaigne du Sud',
     'location.p1':    'Chia est l\'une des destinations côtières les plus précieuses de Sardaigne — un petit village béni par les dunes, les lagunes, les tours phéniciennes et des eaux cristallines aux teintes turquoise d\'une vivacité incroyable.',
