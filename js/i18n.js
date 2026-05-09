@@ -68,7 +68,7 @@ const TRANSLATIONS = {
     'amenity.7.title': 'Panoramic Views',
     'amenity.7.desc':  'Sweeping views over the Sulcis hills with a glimpse of the sea — sunrise and sunset are unmissable.',
     'amenity.8.title': 'Private & Secure',
-    'amenity.8.desc':  'Fully fenced property on a quiet hillside — peaceful, private and safe for families with children.',
+    'amenity.8.desc':  'Fully fenced 6,000 m² property on a quiet hillside, surrounded by Mediterranean vegetation — peaceful, private and safe for families with children.'
 
     'location.label': 'Location',
     'location.title': 'Chia, South Sardinia',
@@ -173,7 +173,7 @@ const TRANSLATIONS = {
     'amenity.7.title': 'Vista Panoramica',
     'amenity.7.desc':  'Vista spettacolare sulle colline del Sulcis con scorci di mare — alba e tramonto da non perdere.',
     'amenity.8.title': 'Privacy e Sicurezza',
-    'amenity.8.desc':  'Proprietà completamente recintata su una collina tranquilla — ideale per famiglie con bambini.',
+    'amenity.8.desc':  'Proprietà completamente recintata di 6.000 m² su una collina tranquilla, immersa nella vegetazione mediterranea — ideale per famiglie con bambini.'
 
     'location.label': 'Posizione',
     'location.title': 'Chia, Sardegna del Sud',
@@ -278,7 +278,7 @@ const TRANSLATIONS = {
     'amenity.7.title': 'Vistas Panorámicas',
     'amenity.7.desc':  'Amplias vistas sobre las colinas del Sulcis con destellos del mar — el amanecer y el atardecer son imperdibles.',
     'amenity.8.title': 'Privacidad y Seguridad',
-    'amenity.8.desc':  'Propiedad completamente cercada en una ladera tranquila — ideal para familias con niños.',
+    'amenity.8.desc':  'Propiedad completamente cercada de 6.000 m² en una ladera tranquila, rodeada de vegetación mediterránea — ideal para familias con niños.'
 
     'location.label': 'Ubicación',
     'location.title': 'Chia, Cerdeña del Sur',
@@ -383,7 +383,7 @@ const TRANSLATIONS = {
     'amenity.7.title': 'Panoramablick',
     'amenity.7.desc':  'Weitreichende Aussicht über die Sulcis-Hügel mit Meerblick — Sonnenauf- und -untergang sind unvergesslich.',
     'amenity.8.title': 'Privat & Sicher',
-    'amenity.8.desc':  'Vollständig eingezäuntes Anwesen auf einem ruhigen Hügel — friedlich, privat und sicher für Familien.',
+    'amenity.8.desc':  'Vollständig eingezäuntes 6.000 m² Anwesen auf einem ruhigen Hügel, umgeben von mediterraner Vegetation — friedlich, privat und sicher für Familien mit Kindern.'
 
     'location.label': 'Lage',
     'location.title': 'Chia, Südsardinien',
@@ -488,7 +488,7 @@ const TRANSLATIONS = {
     'amenity.7.title': 'Vues Panoramiques',
     'amenity.7.desc':  'Vue imprenable sur les collines du Sulcis avec un aperçu de la mer — le lever et le coucher du soleil sont à ne pas manquer.',
     'amenity.8.title': 'Privé & Sécurisé',
-    'amenity.8.desc':  'Propriété entièrement clôturée sur un flanc de colline tranquille — paisible, privée et sûre pour les familles avec enfants.',
+    'amenity.8.desc':  'Propriété entièrement clôturée de 6 000 m² sur un flanc de colline tranquille, entourée de végétation méditerranéenne — paisible, privée et sûre pour les familles avec enfants.'
 
     'location.label': 'Localisation',
     'location.title': 'Chia, Sardaigne du Sud',
