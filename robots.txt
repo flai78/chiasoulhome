@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://flai78.github.io/chiasoulhome/sitemap.xml
