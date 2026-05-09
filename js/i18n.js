@@ -75,7 +75,7 @@ const TRANSLATIONS = {
     'location.item1': '<strong>5 min</strong> to Chia beaches (Su Giudeu, Cala Cipolla)',
     'location.item2': '<strong>35 min</strong> to Cagliari city centre',
     'location.item3': '<strong>40 min</strong> to Cagliari Elmas Airport (CAG)',
-    'location.item4': 'Close to restaurants, supermarkets &amp; village life',
+    'location.item4': 'Close to restaurants, supermarkets & village life',
 
     'contact.label': 'Book Your Stay',
     'contact.title': 'Ready for Sardinia?',
@@ -179,7 +179,7 @@ const TRANSLATIONS = {
     'location.item1': '<strong>5 min</strong> dalle spiagge di Chia (Su Giudeu, Cala Cipolla)',
     'location.item2': '<strong>35 min</strong> dal centro di Cagliari',
     'location.item3': '<strong>40 min</strong> dall\'Aeroporto di Cagliari Elmas (CAG)',
-    'location.item4': 'Vicino a ristoranti, supermercati &amp; vita di paese',
+    'location.item4': 'Vicino a ristoranti, supermercati & vita di paese',
 
     'contact.label': 'Prenota il Soggiorno',
     'contact.title': 'Pronti per la Sardegna?',
@@ -283,7 +283,7 @@ const TRANSLATIONS = {
     'location.item1': '<strong>5 min</strong> a las playas de Chia (Su Giudeu, Cala Cipolla)',
     'location.item2': '<strong>35 min</strong> al centro de Cagliari',
     'location.item3': '<strong>40 min</strong> al Aeropuerto de Cagliari Elmas (CAG)',
-    'location.item4': 'Cerca de restaurantes, supermercados &amp; vida de pueblo',
+    'location.item4': 'Cerca de restaurantes, supermercados & vida de pueblo',
 
     'contact.label': 'Reservar Estancia',
     'contact.title': '¿Listos para Cerdeña?',
@@ -387,7 +387,7 @@ const TRANSLATIONS = {
     'location.item1': '<strong>5 Min.</strong> zu den Stränden von Chia (Su Giudeu, Cala Cipolla)',
     'location.item2': '<strong>35 Min.</strong> ins Zentrum von Cagliari',
     'location.item3': '<strong>40 Min.</strong> zum Flughafen Cagliari Elmas (CAG)',
-    'location.item4': 'In der Nähe von Restaurants, Supermärkten &amp; Dorfleben',
+    'location.item4': 'In der Nähe von Restaurants, Supermärkten & Dorfleben',
 
     'contact.label': 'Aufenthalt buchen',
     'contact.title': 'Bereit für Sardinien?',
@@ -491,7 +491,7 @@ const TRANSLATIONS = {
     'location.item1': '<strong>5 min</strong> des plages de Chia (Su Giudeu, Cala Cipolla)',
     'location.item2': '<strong>35 min</strong> du centre-ville de Cagliari',
     'location.item3': '<strong>40 min</strong> de l\'aéroport de Cagliari Elmas (CAG)',
-    'location.item4': 'Proche des restaurants, supermarchés &amp; vie de village',
+    'location.item4': 'Proche des restaurants, supermarchés & vie de village',
 
     'contact.label': 'Réserver votre séjour',
     'contact.title': 'Prêt pour la Sardaigne ?',
