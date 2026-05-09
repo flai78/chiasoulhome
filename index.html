@@ -352,37 +352,7 @@
       <h2 class="section-title section-title--light" data-i18n="contact.title">Ready for Sardinia?</h2>
       <p class="contact-sub" data-i18n="contact.sub">Send us a message with your preferred dates and the number of guests — we'll get back to you within 24 hours.</p>
 
-      <form class="contact-form" action="mailto:fililai@gmail.com" method="GET" enctype="text/plain">
-        <div class="form-row">
-          <div class="form-group">
-            <label for="name" data-i18n="form.name">Your name</label>
-            <input type="text" id="name" name="name" data-i18n-ph="form.name.ph" placeholder="Maria Rossi" required />
-          </div>
-          <div class="form-group">
-            <label for="email" data-i18n="form.email">Email address</label>
-            <input type="email" id="email" name="email" data-i18n-ph="form.email.ph" placeholder="maria@example.com" required />
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="checkin" data-i18n="form.checkin">Check-in</label>
-            <input type="date" id="checkin" name="checkin" required />
-          </div>
-          <div class="form-group">
-            <label for="checkout" data-i18n="form.checkout">Check-out</label>
-            <input type="date" id="checkout" name="checkout" required />
-          </div>
-          <div class="form-group form-group--small">
-            <label for="guests" data-i18n="form.guests">Guests</label>
-            <input type="number" id="guests" name="guests" min="1" max="4" data-i18n-ph="form.guests.ph" placeholder="4" required />
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="message" data-i18n="form.message">Message (optional)</label>
-          <textarea id="message" name="message" rows="4" data-i18n-ph="form.message.ph" placeholder="Any questions or special requests..."></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary btn-full" data-i18n="form.submit">Send Enquiry</button>
-      </form>
+      <a href="mailto:fililai@gmail.com" class="btn btn-primary btn-contact-mailto" data-i18n="form.submit">Send Enquiry</a>
     </div>
   </section>
 
