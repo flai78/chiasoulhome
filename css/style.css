@@ -136,10 +136,9 @@ ul { list-style: none; }
   font-family: 'Playfair Display', serif;
   font-size: 1.25rem;
   color: var(--white);
-  transition: color var(--transition), text-shadow var(--transition);
-  text-shadow: 0 1px 6px rgba(0,0,0,.6), 0 2px 16px rgba(0,0,0,.4);
+  transition: color var(--transition);
 }
-.site-header.scrolled .nav-logo { color: var(--dark); text-shadow: none; }
+.site-header.scrolled .nav-logo { color: var(--dark); }
 
 .nav-links {
   display: flex;
@@ -153,7 +152,6 @@ ul { list-style: none; }
   text-transform: uppercase;
   color: rgba(255,255,255,.9);
   transition: color var(--transition);
-  text-shadow: 0 1px 4px rgba(0,0,0,.55), 0 2px 12px rgba(0,0,0,.35);
 }
 .nav-links a:hover { color: var(--white); }
 .site-header.scrolled .nav-links a { color: var(--text); text-shadow: none; }
