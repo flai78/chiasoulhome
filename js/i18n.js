@@ -158,7 +158,7 @@ const TRANSLATIONS = {
 
     'amenities.label': 'Servizi',
     'amenities.title': 'Tutto Quello che Cerchi',
-    'amenity.1.title': '3 Camere da Letto',
+    'amenity.1.title': '2 Camere da Letto',
     'amenity.1.desc':  'Una camera matrimoniale e una camera con letti singoli — fino a 2-4 ospiti comodamente.',
     'amenity.2.title': 'Camino',
     'amenity.2.desc':  'Uno splendido camino tradizionale su muro in pietra — perfetto per le serate fresche.',
