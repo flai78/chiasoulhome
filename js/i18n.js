@@ -590,13 +590,13 @@ document.addEventListener('DOMContentLoaded', () => {
       toggle.setAttribute('aria-expanded', open);
     });
 
-    // Close menu when any nav link is tapped
-    navLinks.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => {
-        navLinks.classList.remove('open');
-        toggle.classList.remove('open');
-        toggle.setAttribute('aria-expanded', 'false');
-      });
-    });
+    // Close menu when any nav link or lang button is tapped
+    const closeMenu = () => {
+      navLinks.classList.remove('open');
+      toggle.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    };
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
+    navLinks.querySelectorAll('.lang-btn').forEach(btn => btn.addEventListener('click', closeMenu));
   }
 });
