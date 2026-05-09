@@ -790,6 +790,41 @@ textarea { resize: vertical; }
   color: rgba(255,255,255,.25);
 }
 
+/* Share bar */
+.share-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 14px;
+}
+.share-label {
+  font-size: .75rem;
+  color: rgba(255,255,255,.35);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  transition: transform .2s ease, opacity .2s ease;
+  flex-shrink: 0;
+}
+.share-btn:hover { transform: scale(1.15); opacity: .9; }
+.share-btn svg { width: 16px; height: 16px; }
+.share-btn--whatsapp { background: #25d366; }
+.share-btn--facebook { background: #1877f2; }
+.share-btn--x       { background: #000; }
+.share-btn--copy    { background: rgba(255,255,255,.15); }
+.share-btn--copy.copied { background: var(--terracotta); }
+
 
 /* ============================================================
    RESPONSIVE

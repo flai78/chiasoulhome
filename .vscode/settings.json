@@ -3,6 +3,14 @@
         "git commit": true,
         "git push": true,
         "git add": true,
-        "sips": true
+        "sips": true,
+        "/^node --check js/i18n\\.js 2>&1 && echo \"Syntax OK\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^node --check js/i18n\\.js && git add index\\.html js/i18n\\.js css/style\\.css && git commit -m \"Add Google Maps link to footer address \\(all 5 langs\\)\" && git push origin main$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
     }
 }
