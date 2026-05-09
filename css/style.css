@@ -721,6 +721,11 @@ textarea { resize: vertical; }
   color: rgba(255,255,255,.5);
   line-height: 1.7;
 }
+.footer-brand p a {
+  color: rgba(255,255,255,.7);
+  text-decoration: none;
+}
+.footer-brand p a:hover { color: var(--terracotta-light); }
 
 /* Contact column */
 .footer-contact-title,

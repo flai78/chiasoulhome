@@ -99,8 +99,7 @@ const TRANSLATIONS = {
     'area.cap2':  'Sunset horse riding',
     'area.cap3':  'Crystal-clear Chia waters',
 
-    'footer.address': 'Vico 3 Giosuè Carducci, Piano Rialzato 34<br>09010 Domus de Maria (Sud Sardegna)<br>Sardegna, Italia',
-    'footer.contact.title': 'Rentals & Info',
+    'footer.address': 'Vico 3 Giosuè Carducci, Piano Rialzato 34<br>09010 Domus de Maria (Sud Sardegna)<br>Sardegna, Italia<br><a href="https://maps.google.com/?q=38.912673,8.881625" target="_blank" rel="noopener">📍 Google Maps</a>',
     'footer.guests.link':   'Guest registration portal →',
     'footer.legal.title':   'Registration',
     'footer.cin':  'CIN',
@@ -203,7 +202,7 @@ const TRANSLATIONS = {
     'area.cap2':  'Passeggiata a cavallo al tramonto',
     'area.cap3':  'Le acque cristalline di Chia',
 
-    'footer.address': 'Vico 3 Giosuè Carducci, Piano Rialzato 34<br>09010 Domus de Maria (Sud Sardegna)<br>Sardegna, Italia',
+    'footer.address': 'Vico 3 Giosuè Carducci, Piano Rialzato 34<br>09010 Domus de Maria (Sud Sardegna)<br>Sardegna, Italia<br><a href="https://maps.google.com/?q=38.912673,8.881625" target="_blank" rel="noopener">📍 Google Maps</a>',
     'footer.contact.title': 'Affitti e Info',
     'footer.guests.link':   'Portale registrazione ospiti →',
     'footer.legal.title':   'Registrazione',
@@ -307,7 +306,7 @@ const TRANSLATIONS = {
     'area.cap2':  'Paseo a caballo al atardecer',
     'area.cap3':  'Las aguas cristalinas de Chia',
 
-    'footer.address': 'Vico 3 Giosuè Carducci, Piano Rialzato 34<br>09010 Domus de Maria (Sud Sardegna)<br>Cerdeña del Sur, Italia',
+    'footer.address': 'Vico 3 Giosuè Carducci, Piano Rialzato 34<br>09010 Domus de Maria (Sud Sardegna)<br>Cerdeña del Sur, Italia<br><a href="https://maps.google.com/?q=38.912673,8.881625" target="_blank" rel="noopener">📍 Google Maps</a>',
     'footer.contact.title': 'Alquileres e Info',
     'footer.guests.link':   'Portal de registro de huéspedes →',
     'footer.legal.title':   'Registro',
@@ -411,7 +410,7 @@ const TRANSLATIONS = {
     'area.cap2':  'Reiten bei Sonnenuntergang',
     'area.cap3':  'Kristallklares Wasser bei Chia',
 
-    'footer.address': 'Vico 3 Giosuè Carducci, Piano Rialzato 34<br>09010 Domus de Maria (Sud Sardegna)<br>Süsardinien, Italien',
+    'footer.address': 'Vico 3 Giosuè Carducci, Piano Rialzato 34<br>09010 Domus de Maria (Sud Sardegna)<br>Süsardinien, Italien<br><a href="https://maps.google.com/?q=38.912673,8.881625" target="_blank" rel="noopener">📍 Google Maps</a>',
     'footer.contact.title': 'Vermietung & Info',
     'footer.guests.link':   'Gästeregistrierungsportal →',
     'footer.legal.title':   'Registrierung',
@@ -515,7 +514,7 @@ const TRANSLATIONS = {
     'area.cap2':  'Balade à cheval au coucher du soleil',
     'area.cap3':  'Les eaux cristallines de Chia',
 
-    'footer.address': 'Vico 3 Giosuè Carducci, Piano Rialzato 34<br>09010 Domus de Maria (Sud Sardegna)<br>Sardaigne, Italie',
+    'footer.address': 'Vico 3 Giosuè Carducci, Piano Rialzato 34<br>09010 Domus de Maria (Sud Sardegna)<br>Sardaigne, Italie<br><a href="https://maps.google.com/?q=38.912673,8.881625" target="_blank" rel="noopener">📍 Google Maps</a>',
     'footer.contact.title': 'Location & Infos',
     'footer.guests.link':   'Portail d\'enregistrement des voyageurs →',
     'footer.legal.title':   'Enregistrement',
