@@ -443,17 +443,18 @@ ul { list-style: none; }
 .gallery-caption {
   position: absolute;
   bottom: 0; left: 0; right: 0;
-  padding: 14px 16px 12px;
+  padding: 24px 16px 12px;
   background: linear-gradient(to top, rgba(20,10,2,.75) 0%, rgba(20,10,2,.35) 60%, transparent 100%);
   color: rgba(255,255,255,.92);
   font-size: .82rem;
   font-weight: 600;
   letter-spacing: .04em;
   text-transform: none;
-  opacity: 1;
-  transform: none;
-  transition: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity var(--transition), transform var(--transition);
 }
+.gallery-item:hover .gallery-caption { opacity: 1; transform: translateY(0); }
 
 
 /* ============================================================
@@ -672,17 +673,18 @@ textarea { resize: vertical; }
 .chia-area-caption {
   position: absolute;
   bottom: 0; left: 0; right: 0;
-  padding: 14px 16px 12px;
+  padding: 24px 16px 12px;
   background: linear-gradient(to top, rgba(20,10,2,.75) 0%, rgba(20,10,2,.35) 60%, transparent 100%);
   color: rgba(255,255,255,.92);
   font-size: .82rem;
   font-weight: 600;
   letter-spacing: .04em;
   text-transform: none;
-  opacity: 1;
-  transform: none;
-  transition: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity var(--transition), transform var(--transition);
 }
+.chia-area-item:hover .chia-area-caption { opacity: 1; transform: translateY(0); }
 
 
 /* ============================================================
